@@ -24,7 +24,7 @@ fs.readdir("./komutlar/", (err, files) => {
 bot.on("ready", async () => {
   console.log(`${bot.user.username} ${bot.guilds.size} sunucuda aktif!`);
 
-  bot.user.setActivity("f! yardım", {type: "PLAYING"});
+  bot.user.setActivity("f! YARDIM |", {type: "LISTENING"});
 });
 
 bot.on("message", async message => {
